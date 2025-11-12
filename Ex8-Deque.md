@@ -21,10 +21,9 @@ RegisterNumber: 212224240098
 ```
 ```c
 
-/*#include <stdio.h> #define MAX 10
+#include <stdio.h> #define MAX 10
 void addFront(int *, int, int *, int *); void addRear(int *, int, int *, int *); int delFront(int *, int *, int *); intdelRear(int *, int *, int*);
 void display(int *); int count(int *);
-*/
 int count(int *arr) { int c = 0, i; for(i=0;i<MAX;i++)
 {
 if(arr[i]!=0)
@@ -34,8 +33,6 @@ c=c+1;
 }
 return c;
 }
-
-*/
 ```
 
 ## Output:
